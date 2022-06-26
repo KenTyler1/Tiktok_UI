@@ -9,16 +9,16 @@ import {
     faSignOut,
     faUser,
 } from '@fortawesome/free-solid-svg-icons';
+import { InboxIcon, MessageIcon, UploadIcon } from '~/components/Icons';
 import classNames from 'classnames/bind';
 import Tippy from '@tippyjs/react';
-import 'tippy.js/dist/tippy.css';
 import styles from './Header.module.scss';
 import images from '~/assets/images';
 import Button from '~/components/Button';
 import Menu from '~/components/Popper/Menu';
-import { InboxIcon, MessageIcon, UploadIcon } from '~/components/Icons';
 import Image from '~/components/Image';
 import Search from '../Search';
+import 'tippy.js/dist/tippy.css';
 
 const cx = classNames.bind(styles);
 
