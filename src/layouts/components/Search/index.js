@@ -8,7 +8,7 @@ import HeadlessTippy from '@tippyjs/react/headless';
 import classNames from 'classnames/bind';
 import AccountItem from '~/components/AccountItem';
 import styles from './Search.module.scss';
-import * as searchServices from '~/apiServices/searchServices';
+import * as searchServices from '~/services/searchServices';
 
 const cx = classNames.bind(styles);
 
