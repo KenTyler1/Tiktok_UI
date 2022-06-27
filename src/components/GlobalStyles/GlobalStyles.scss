@@ -6,12 +6,8 @@
     --text-color: #333;
     --white: #fff;
     --text-color: #161823;
-}
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    --font-family: 'ProximaNova', sans-serif;
 
     //Default layout
     --default-lay-out-header-height: 60px;
@@ -19,12 +15,18 @@
     --default-layout-horizontal-spacer: 24px;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 html {
     font-size: 62.5%;
 }
 
 body {
-    font-family: 'ProximaNova', sans-serif;
+    font-family: var(--font-family);
     font-size: 1.6rem;
     line-height: 1.5;
     text-rendering: optimizespeed;
